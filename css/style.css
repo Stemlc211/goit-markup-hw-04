@@ -137,6 +137,18 @@ ul {
     bottom: -1px;
 }
 
+.top-menu-item .link::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #404bbf;
+    border-radius: 2px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
 .contacts-us .link {
     color: #434455;
     font-weight: 400;
@@ -148,10 +160,9 @@ ul {
 
 .orders {
     background-color: #2e2f42;
-    background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-        url(../images/background-img.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),
+      url(../images/background-img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
